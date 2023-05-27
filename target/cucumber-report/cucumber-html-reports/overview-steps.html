@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+        <td>1</td>
+      <td>26 May 2023, 22:30</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">tek.dragons.cucumber.base.BaseUITest.closeTests(io.cucumber.java.Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="1614755883">1.614</td>
+              <td class="duration" data-value="1614755883">1.694</td>
+              <td class="duration" data-value="9688535300">9.688</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.base.BaseUITest.setupTests()</td>
+              <td>6</td>
+              <td class="duration" data-value="5058193550">5.058</td>
+              <td class="duration" data-value="5058193550">6.635</td>
+              <td class="duration" data-value="30349161300">30.349</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.belowAccessoriesAndNetworkingArePresentInDepartment()</td>
+              <td>1</td>
+              <td class="duration" data-value="37390400">0.037</td>
+              <td class="duration" data-value="37390400">0.037</td>
+              <td class="duration" data-value="37390400">0.037</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.belowAthleticClothingAndExerciseFitnessArePresentInDepartment()</td>
+              <td>1</td>
+              <td class="duration" data-value="33672600">0.033</td>
+              <td class="duration" data-value="33672600">0.033</td>
+              <td class="duration" data-value="33672600">0.033</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.belowAutomativePartsAccessoriesAndMotorCyclePowersportsArePresentInDepartment()</td>
+              <td>1</td>
+              <td class="duration" data-value="49416200">0.049</td>
+              <td class="duration" data-value="49416200">0.049</td>
+              <td class="duration" data-value="49416200">0.049</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.belowSmartHomeLightningAndPlugsAndOutletsArePresentInDepartment()</td>
+              <td>1</td>
+              <td class="duration" data-value="61620400">0.061</td>
+              <td class="duration" data-value="61620400">0.061</td>
+              <td class="duration" data-value="61620400">0.061</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.belowTVVideoAndVideoGamesArePresentInDepartment()</td>
+              <td>1</td>
+              <td class="duration" data-value="45937000">0.045</td>
+              <td class="duration" data-value="45937000">0.045</td>
+              <td class="duration" data-value="45937000">0.045</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userClickOnAllSection()</td>
+              <td>6</td>
+              <td class="duration" data-value="2530230583">2.530</td>
+              <td class="duration" data-value="2530230583">2.660</td>
+              <td class="duration" data-value="15181383500">15.181</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userOnAutomotive()</td>
+              <td>1</td>
+              <td class="duration" data-value="280071800">0.280</td>
+              <td class="duration" data-value="280071800">0.280</td>
+              <td class="duration" data-value="280071800">0.280</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userOnComputers()</td>
+              <td>1</td>
+              <td class="duration" data-value="285505700">0.285</td>
+              <td class="duration" data-value="285505700">0.285</td>
+              <td class="duration" data-value="285505700">0.285</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userOnElectronics()</td>
+              <td>1</td>
+              <td class="duration" data-value="286100100">0.286</td>
+              <td class="duration" data-value="286100100">0.286</td>
+              <td class="duration" data-value="286100100">0.286</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userOnSmartHome()</td>
+              <td>1</td>
+              <td class="duration" data-value="266560500">0.266</td>
+              <td class="duration" data-value="266560500">0.266</td>
+              <td class="duration" data-value="266560500">0.266</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.userOnSports()</td>
+              <td>1</td>
+              <td class="duration" data-value="266433600">0.266</td>
+              <td class="duration" data-value="266433600">0.266</td>
+              <td class="duration" data-value="266433600">0.266</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.HomeSteps.verifyDropDownOptionsArePresentInShopByDepartmentSidebar()</td>
+              <td>1</td>
+              <td class="duration" data-value="116044900">0.116</td>
+              <td class="duration" data-value="116044900">0.116</td>
+              <td class="duration" data-value="116044900">0.116</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">tek.dragons.cucumber.steps.SignInSteps.userIsOnRetailWebsite()</td>
+              <td>6</td>
+              <td class="duration" data-value="170570733">0.170</td>
+              <td class="duration" data-value="170570733">0.273</td>
+              <td class="duration" data-value="1023424400">1.023</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>15</td>
+            <td>35</td>
+            <td class="duration">1.656</td>
+            <td class="duration">30.349</td>
+            <td class="duration">57.971</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
