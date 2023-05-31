@@ -8,7 +8,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 //@RunWith is a JUnit Annotation
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@signIn",
+		tags = "@home",
 		features = ("classpath:features"),
 		glue = "tek.dragons.cucumber",
 		dryRun = false,

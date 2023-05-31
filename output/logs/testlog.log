@@ -633,3 +633,26 @@
 2023-05-26 22:30:32,310 - logger_file -INFO - User click on all section
 2023-05-26 22:30:32,591 - logger_file -INFO - User on Automotive
 2023-05-26 22:30:32,641 - logger_file -INFO - Automative parts & Accessories and MotorCycle & Powersports present
+2023-05-30 23:10:25,814 - logger_file -INFO - user is on retail website
+2023-05-30 23:10:28,458 - logger_file -INFO - User click on all section
+2023-05-30 23:10:28,600 - logger_file -INFO - User verified drop options are present
+2023-05-30 23:10:37,117 - logger_file -INFO - user is on retail website
+2023-05-30 23:10:40,500 - logger_file -INFO - User click on all section
+2023-05-30 23:10:40,838 - logger_file -INFO - User is on Electronics
+2023-05-30 23:10:40,927 - logger_file -INFO - Tv & Video and Video games are present
+2023-05-30 23:10:51,547 - logger_file -INFO - user is on retail website
+2023-05-30 23:10:54,193 - logger_file -INFO - User click on all section
+2023-05-30 23:10:54,604 - logger_file -INFO - User on Computers
+2023-05-30 23:10:54,680 - logger_file -INFO - Accessories and Networking present
+2023-05-30 23:11:03,201 - logger_file -INFO - user is on retail website
+2023-05-30 23:11:05,697 - logger_file -INFO - User click on all section
+2023-05-30 23:11:05,990 - logger_file -INFO - User on Smart Home
+2023-05-30 23:11:06,042 - logger_file -INFO - Smart Home Lightning and plus and outlets are present
+2023-05-30 23:11:12,789 - logger_file -INFO - user is on retail website
+2023-05-30 23:11:15,290 - logger_file -INFO - User click on all section
+2023-05-30 23:11:15,568 - logger_file -INFO - User on sports
+2023-05-30 23:11:15,623 - logger_file -INFO - Athletic Clothing and Exercise & Fitness present
+2023-05-30 23:11:22,263 - logger_file -INFO - user is on retail website
+2023-05-30 23:11:24,781 - logger_file -INFO - User click on all section
+2023-05-30 23:11:25,467 - logger_file -INFO - User on Automotive
+2023-05-30 23:11:25,780 - logger_file -INFO - Automative parts & Accessories and MotorCycle & Powersports present

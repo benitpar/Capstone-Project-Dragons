@@ -633,3 +633,26 @@
 2023-05-26 22:30:32,310 [main] INFO logger_file - User click on all section
 2023-05-26 22:30:32,591 [main] INFO logger_file - User on Automotive
 2023-05-26 22:30:32,641 [main] INFO logger_file - Automative parts & Accessories and MotorCycle & Powersports present
+2023-05-30 23:10:25,814 [main] INFO logger_file - user is on retail website
+2023-05-30 23:10:28,458 [main] INFO logger_file - User click on all section
+2023-05-30 23:10:28,600 [main] INFO logger_file - User verified drop options are present
+2023-05-30 23:10:37,117 [main] INFO logger_file - user is on retail website
+2023-05-30 23:10:40,500 [main] INFO logger_file - User click on all section
+2023-05-30 23:10:40,838 [main] INFO logger_file - User is on Electronics
+2023-05-30 23:10:40,927 [main] INFO logger_file - Tv & Video and Video games are present
+2023-05-30 23:10:51,547 [main] INFO logger_file - user is on retail website
+2023-05-30 23:10:54,193 [main] INFO logger_file - User click on all section
+2023-05-30 23:10:54,604 [main] INFO logger_file - User on Computers
+2023-05-30 23:10:54,680 [main] INFO logger_file - Accessories and Networking present
+2023-05-30 23:11:03,201 [main] INFO logger_file - user is on retail website
+2023-05-30 23:11:05,697 [main] INFO logger_file - User click on all section
+2023-05-30 23:11:05,990 [main] INFO logger_file - User on Smart Home
+2023-05-30 23:11:06,042 [main] INFO logger_file - Smart Home Lightning and plus and outlets are present
+2023-05-30 23:11:12,789 [main] INFO logger_file - user is on retail website
+2023-05-30 23:11:15,290 [main] INFO logger_file - User click on all section
+2023-05-30 23:11:15,568 [main] INFO logger_file - User on sports
+2023-05-30 23:11:15,623 [main] INFO logger_file - Athletic Clothing and Exercise & Fitness present
+2023-05-30 23:11:22,263 [main] INFO logger_file - user is on retail website
+2023-05-30 23:11:24,781 [main] INFO logger_file - User click on all section
+2023-05-30 23:11:25,467 [main] INFO logger_file - User on Automotive
+2023-05-30 23:11:25,780 [main] INFO logger_file - Automative parts & Accessories and MotorCycle & Powersports present
